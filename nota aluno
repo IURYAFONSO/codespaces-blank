@@ -1,0 +1,37 @@
+    
+    #include <iostream>
+    #include <string>
+    
+    using namespace std;
+    
+    int main (){
+      string aluno;
+      int nota1,nota2,nota3,soma;
+      float media;
+    cout << "\nnome do aluno:";
+    cin >> aluno; 
+    cout << "\nnota1:";
+    cin >> nota1;
+    cout << "\nnota2:";
+    cin >> nota3;
+   cout << "\nnota1:";
+       cin >> nota3;
+   soma=nota1+nota2+nota3;
+    media= soma/3.0f;
+    cout << "\naluno:"<<aluno<<"\n";
+    cout << "\nmédia:"<<media<<"\n";
+    if(media>=7){
+     cout<<"aprovado";
+    }
+    else if(media<=5){
+         cout << "reprovado";
+       }
+    else{
+         cout << "recuperação";
+   }
+       
+        return 0;
+     }
+  
+
+    
